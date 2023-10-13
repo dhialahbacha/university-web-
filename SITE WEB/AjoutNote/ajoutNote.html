@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" href="ajout.css">
+<title>Ajouter les notes d'un etudiant</title>
+</head>
+
+<body>
+	<form method="POST" action="ajoutnote.php">
+
+	<div class="centdiv">
+		<div class="name"><h3>Ajouter les notes d'un etudiant</h3></div>
+		<div class="content">
+	<label>CIN d'étudiant</label><input type="number" size="8" placeholder="CIN"name="cin"/>
+	<table>
+		<tr><th>matières</th><th>DS</th><th>Examen</th></tr>
+		<tr><td>
+			<input type="text" placeholder="Nom de Matiere" name="T1" size="20"/> </td><td><input type="number" placeholder="Note de DS" name="ds1"/></td><td><input type="number" placeholder="Note d'examen" name="examen1"/></td></tr>
+		<tr><td>
+			<input type="text" placeholder="Nom de Matiere" name="T2" size="20"/></td><td><input type="number" placeholder="Note de DS" name="ds2"/></td><td><input type="number" placeholder="Note d'examen" name="examen2"/></td></tr>
+		<tr><td>
+			<input type="text" placeholder="Nom de Matiere" name="T3" size="20"/></td><td><input type="number" placeholder="Note de DS" name="ds3"/></td><td><input type="number" placeholder="Note d'examen" name="examen3"/></td></tr>
+		<tr><td>
+			<input type="text" placeholder="Nom de Matiere" name="T4" size="20"/></td><td><input type="number" placeholder="Note de DS" name="ds4"/></td><td><input type="number" placeholder="Note d'examen" name="examen4"/></td></tr>
+	</table>
+	<input class="btn" type="submit" value="ajouter notes">
+</div>
+</form>
+</body>
+
+</html>
